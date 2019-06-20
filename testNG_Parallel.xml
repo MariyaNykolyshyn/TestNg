@@ -3,7 +3,7 @@
 
     <test name="Test 1">
         <classes>
-            <class name="testNG_Parallel.TestNG_Parallel1"></class>
+            <class name="testNG_Parallel.ParallelTestWithDifferentBrowser"></class>
         </classes>
     </test>
     <test name="Test 2">

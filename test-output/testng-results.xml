@@ -26,26 +26,26 @@
       <![CDATA[TestNG_ReportsAndLogs -> This runs once after class]]>
     </line>
   </reporter-output>
-  <suite name="Regression TestSuite" duration-ms="125" started-at="2018-12-31T10:52:58Z" finished-at="2018-12-31T10:52:58Z">
+  <suite name="Regression TestSuite" duration-ms="203" started-at="2019-01-12T22:54:41Z" finished-at="2019-01-12T22:54:41Z">
     <groups>
     </groups>
-    <test name="Application Test" duration-ms="125" started-at="2018-12-31T10:52:58Z" finished-at="2018-12-31T10:52:58Z">
+    <test name="Application Test" duration-ms="203" started-at="2019-01-12T22:54:41Z" finished-at="2019-01-12T22:54:41Z">
       <class name="testclasses.TestNG_ReportsAndAnalog">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@7c75222b]" name="setUp" is-config="true" duration-ms="47" started-at="2018-12-31T10:52:58Z" finished-at="2018-12-31T10:52:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@48140564]" name="setUp" is-config="true" duration-ms="47" started-at="2019-01-12T22:54:41Z" finished-at="2019-01-12T22:54:41Z">
           <reporter-output>
             <line>
               <![CDATA[TestNG_ReportsAndLogs -> This runs once before class]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@7c75222b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-12-31T10:52:58Z" finished-at="2018-12-31T10:52:58Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@48140564]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-12T22:54:41Z" finished-at="2019-01-12T22:54:41Z">
           <reporter-output>
             <line>
               <![CDATA[TestNG_ReportsAndLogs -> This runs before every method]]>
             </line>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="FAIL" signature="testMethod2()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@7c75222b]" name="testMethod2" duration-ms="0" started-at="2018-12-31T10:52:58Z" finished-at="2018-12-31T10:52:58Z">
+        <test-method status="FAIL" signature="testMethod2()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@48140564]" name="testMethod2" duration-ms="15" started-at="2019-01-12T22:54:41Z" finished-at="2019-01-12T22:54:41Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -90,34 +90,48 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
             </line>
           </reporter-output>
         </test-method> <!-- testMethod2 -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@7c75222b]" name="cleanUp" is-config="true" duration-ms="0" started-at="2018-12-31T10:52:58Z" finished-at="2018-12-31T10:52:58Z">
-          <reporter-output>
-            <line>
-              <![CDATA[TestNG_ReportsAndLogs -> This runs once after class]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@7c75222b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-12-31T10:52:58Z" finished-at="2018-12-31T10:52:58Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@48140564]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-12T22:54:41Z" finished-at="2019-01-12T22:54:41Z">
           <reporter-output>
             <line>
               <![CDATA[TestNG_ReportsAndLogs -> This runs after every method]]>
             </line>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="testMethod1()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@7c75222b]" name="testMethod1" duration-ms="0" started-at="2018-12-31T10:52:58Z" finished-at="2018-12-31T10:52:58Z">
+        <test-method status="PASS" signature="testMethod1()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@48140564]" name="testMethod1" duration-ms="0" started-at="2019-01-12T22:54:41Z" finished-at="2019-01-12T22:54:41Z">
           <reporter-output>
             <line>
               <![CDATA[TestNG_ReportsAndLogs -> testMethod1]]>
             </line>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
-        <test-method status="SKIP" signature="testMethod3()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@7c75222b]" name="testMethod3" duration-ms="0" started-at="2018-12-31T10:52:58Z" depends-on-methods="testclasses.TestNG_ReportsAndAnalog.testMethod2" finished-at="2018-12-31T10:52:58Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@48140564]" name="afterMethod" is-config="true" duration-ms="0" started-at="2019-01-12T22:54:41Z" finished-at="2019-01-12T22:54:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs after every method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@48140564]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2019-01-12T22:54:41Z" finished-at="2019-01-12T22:54:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs before every method]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@48140564]" name="cleanUp" is-config="true" duration-ms="0" started-at="2019-01-12T22:54:41Z" finished-at="2019-01-12T22:54:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TestNG_ReportsAndLogs -> This runs once after class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="SKIP" signature="testMethod3()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@48140564]" name="testMethod3" duration-ms="0" started-at="2019-01-12T22:54:41Z" depends-on-methods="testclasses.TestNG_ReportsAndAnalog.testMethod2" finished-at="2019-01-12T22:54:41Z">
           <exception class="java.lang.Throwable">
             <message>
-              <![CDATA[Method TestNG_ReportsAndAnalog.testMethod3()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@7c75222b] depends on not successfully finished methods]]>
+              <![CDATA[Method TestNG_ReportsAndAnalog.testMethod3()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@48140564] depends on not successfully finished methods]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method TestNG_ReportsAndAnalog.testMethod3()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@7c75222b] depends on not successfully finished methods
+              <![CDATA[java.lang.Throwable: Method TestNG_ReportsAndAnalog.testMethod3()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@48140564] depends on not successfully finished methods
 at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
@@ -141,20 +155,6 @@ at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:123)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod3 -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@7c75222b]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-12-31T10:52:58Z" finished-at="2018-12-31T10:52:58Z">
-          <reporter-output>
-            <line>
-              <![CDATA[TestNG_ReportsAndLogs -> This runs before every method]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testclasses.TestNG_ReportsAndAnalog@7c75222b]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-12-31T10:52:58Z" finished-at="2018-12-31T10:52:58Z">
-          <reporter-output>
-            <line>
-              <![CDATA[TestNG_ReportsAndLogs -> This runs after every method]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
       </class> <!-- testclasses.TestNG_ReportsAndAnalog -->
     </test> <!-- Application Test -->
   </suite> <!-- Regression TestSuite -->
